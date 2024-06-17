@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-clear {
+  background-image: url('/bg-clear.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-cloudy {
+  background-image: url('/bg-cloudy.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-rainy {
+  background-image: url('/bg-rainy.jpg');
+  background-size: cover;
+  background-position: center;
+}
